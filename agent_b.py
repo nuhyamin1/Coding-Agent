@@ -56,6 +56,8 @@ class CodingAgent:
                 {"role": "system", "content": system_content},
                 {"role": "user", "content": user_content}
             ],
+            max_tokens=8000,
+            temperature=1.3,
             stream=True
         )
 
